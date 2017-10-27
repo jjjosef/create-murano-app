@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Folio Lin",
+      "authorEmail": "foliolin@exosite.com",
+      "authorUrl": "https://github.com/jjjosef/create-murano-app"
+    }
+  }
+}
