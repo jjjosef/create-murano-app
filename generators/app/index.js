@@ -17,13 +17,8 @@ module.exports = class extends Generator {
     const prompts = [
       {
         type: 'input',
-        name: 'email',
-        message: 'Email'
-      },
-      {
-        type: 'input',
-        name: 'password',
-        message: 'Password'
+        name: 'dirname',
+        message: 'dirname'
       }
     ];
 
@@ -50,4 +45,6 @@ module.exports = class extends Generator {
   install() {
     // This.installDependencies();
   }
+
+  end() {}
 };

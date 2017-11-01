@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 create-react-app .
-# murano init && cp /.murano/* .murano
+murano init && cp /.murano/* .murano

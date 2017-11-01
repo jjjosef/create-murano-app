@@ -14,7 +14,7 @@ RUN gem install MuranoCLI
 RUN mkdir /.murano
 RUN chmod 777 /.murano
 RUN npm install -g yo
-COPY ./usr/local/bin/new /usr/local/bin/new 
+COPY ./usr/local/bin/new /usr/local/bin/new
 # RUN npm install -g generator-generator
 
 # RUN apt-get clean
